@@ -16,7 +16,7 @@ const logger=createLogger({
             format:format.combine(format.timestamp(),format.simple()),
             collection:"logger-data"
         })
-    ]
+     ]
 })
 
 module.exports=logger
